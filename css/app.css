@@ -1,0 +1,114 @@
+/* app css stylesheet */
+
+html { 
+	height: 100%;
+	background-color: #548763;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+#login_box {
+	width: 600px;
+	height: 400px;
+	background-color: #548763;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#chat {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1082px;
+}
+
+#userList {
+	float: left;
+	width: 170px;
+	height: 806px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #5193BD;
+	overflow-y: scroll;
+	overflow-x: hide;
+	border-style: inset;
+}
+
+.userItem {
+	position: relative;
+	margin: 10px;
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: hand; 
+	cursor: pointer;
+	background-color: #FFE375;
+}
+
+#messages {
+	float: right;
+	width: 900px;
+	height: 600px;
+	border-style: inset;
+	border-width: small;
+	background-color: #548763;
+	text-align: center;
+}
+
+#sendMessage {
+	float: right;
+	width: 860px;
+	height: 160px;
+	top: 600px;
+	left: 175px;
+	border-style: outset;
+	background-color: #E0E8B7;
+	padding: 20px;
+}
+
+#sendMessage textarea {
+	height: 110px;
+	width: 840px;
+	resize: none;
+}
+
+#chatList{
+	top: 10px;
+	right: 0;
+	left: 0px;
+	bottom: 0px;
+	height: 562px;
+	overflow-y: auto;
+	text-align: left;
+	list-style: none;
+}
+
+.sender_box {
+	text-align: left;
+}
+
+.receiver_box {
+	text-align: right;
+}
+
+.message {
+	margin-top: 10px;
+	max-width: 500px;
+	display: inline-block;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.to_message {
+	text-align: left;
+	background-color: #BF2436;
+}
+
+.from_message {
+	margin-right: 30px;
+	text-align: right;
+	background-color: #53BCE6;
+}
